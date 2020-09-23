@@ -1,0 +1,11 @@
+service edu.rpi.controller
+
+option version 0.8
+
+object servcon
+
+	property uint16[2] servoVal
+
+	function void setServo(uint8 channel, uint16 pulse)
+
+end object

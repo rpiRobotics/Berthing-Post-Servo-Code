@@ -1,0 +1,13 @@
+service edu.rpi.controller
+
+option version 0.8
+
+object servcon
+
+	property uint16[2] servoVal
+
+	function void setServo(uint8 channel, uint16 pulse)
+
+	function void autoCloseSet(uint8 channelA, uint8 channelB, uint16 closevalA, uint16 closevalB, double closespeed)
+
+end object
